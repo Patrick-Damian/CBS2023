@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif
+}
+body{
+    background-image: url('../images/user.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.main-nav{
+    background: #630000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    height: 100px;
+    padding: 0 70px;
+}
+.logo{
+    color: #fff;
+    font-size: 25px;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+}
+.nav-items li{
+    list-style: none;
+    padding: 0 15px;
+}
+.nav-items li a{
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-items li a:hover{
+    color: #a7a7a7;
+}
+.cart-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.cart-icon a{
+    font-size: 18px;
+    color: #fff;
+    margin-right: 15px;
+}
+.cart-icon a:hover{
+    color: #a7a7a7;
+}
+/* end of nav bar css */.main-nav{
+    background: #630000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    height: 100px;
+    padding: 0 70px;
+}
+.logo{
+    color: #fff;
+    font-size: 25px;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+}
+.nav-items li{
+    list-style: none;
+    padding: 0 15px;
+}
+.nav-items li a{
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-items li a:hover{
+    color: #a7a7a7;
+}
+.cart-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.cart-icon a{
+    font-size: 18px;
+    color: #fff;
+    margin-right: 15px;
+}
+.cart-icon a:hover{
+    color: #a7a7a7;
+}
+/* end of nav bar css */
+/* Register/CSS */
+.register{
+    /* border-style: solid;
+    border-color: black; */
+    padding: 30px 10px 15px 15px;
+    width: 40%;
+    position: relative;
+    top: 1rem;
+    left: 15rem;
+    background-color: #E6E6E6;
+    border-radius: 5%;
+}
+.register-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.register h4{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.label-register{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+input[type=text], input[type=password]{
+    width: 50%;
+    padding: 3px;
+    margin: 5px 0 15px 0;
+    background: #f1f1f1;
+    display: inline-block;
+    border-radius: 10px;
+}
+.register p{
+    margin-left: 3.5rem;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.register a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.register a:hover{
+    color: blue;
+}
+.registerbtn{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 15px;
+/* margin-top: 5px; */
+    margin-left: 35%;
+    margin-bottom: 10px;
+}
+.registerbtn:hover{
+    background-color: #a7a7a7;
+    color: black;
+}

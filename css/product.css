@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif
+}
+.main-nav{
+    background: #630000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    height: 100px;
+    padding: 0 70px;
+}
+.logo{
+    color: #fff;
+    font-size: 25px;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+}
+.nav-items li{
+    list-style: none;
+    padding: 0 15px;
+}
+.nav-items li a{
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-items li a:hover{
+    color: #a7a7a7;
+}
+.cart-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.cart-icon a{
+    font-size: 18px;
+    color: #fff;
+    margin-right: 15px;
+}
+.cart-icon a:hover{
+    color: #a7a7a7;
+}
+/* end of nav bar css */
+/* Category CSS */
+.cat-list{
+    /* border-style: solid;
+    border-color: black; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cat-list a{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+
+}
+.cat-list a:hover{
+    color: #630000;
+}
+.input-group{
+    /* border-style: solid;
+    border-color: black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+/* PRoduct CSS Final */
+.products .box-container{
+    /* border-style: solid;
+    border-color: black; */
+    display: flex;
+    flex-wrap:wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   /* display: grid;
+   grid-template-columns: repeat(auto-fit, 15rem);
+   gap:.5rem;
+   padding: 5px; */
+}
+.products .box{
+   padding:15px;
+   box-shadow: 5px 5px #E6E6E6;
+   border-radius: 10px;
+   margin: 5px;
+   /* border-style: solid;
+   border-color: rgb(222, 22, 22); */
+}
+
+.products .box img{
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 15rem;
+    width: 13rem;
+}
+
+.products .box h3{
+    /* border-style: solid;
+    border-color: blue; */
+    margin-top: 5px;
+   font-size: 16px;
+   font-weight: bold;
+   color:black;
+}
+.products .box .price{
+    text-align: left;
+   font-size: 16px;
+   color:black;
+}
+.btn-cart{
+    color: #fff;
+    background-color:#630000;
+    border-style: none;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+.btn-cart:hover{
+    color: black;
+    background-color: #e6e6e65f;
+}

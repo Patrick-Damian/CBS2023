@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    /* margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif
+}
+.sidebar-nav{
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #630000;
+  overflow-x: hidden;
+}
+.sidebar-nav header{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background: #b61601f7;
+    user-select: none;
+}
+.sidebar-nav .sidebar-list ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .5s;
+    text-decoration: none;
+}
+.sidebar-list ul li:hover a{
+    padding-left: 20px;
+}
+.sidebar-nav .sidebar-list ul a i{
+    margin-right: 10px;
+}
+
+/* CSS admin-dashboard */
+.admin-dashboard{
+    margin-left: 270px;
+}
+/* CSS admin-products */
+.admin-products{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+/* -------------------- */
+.admin-category{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+.admin-registration{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+.admin-user{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+.admin-orders{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+.admin-payment{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+.admin-return-cancel{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+.admin-supplier{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+.admin-contact{
+    margin-left: 270px;
+    margin-right: 20px;
+}
+.admin-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#E6E6E6;
+}
+.login{
+    background-color:#630000;
+    padding: 25px;
+    border-radius: 20px;
+}
+.admin-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#E6E6E6;
+}
+.register{
+    background-color:#630000;
+    padding: 25px;
+    border-radius: 20px;
+}
+/* .sales-container{
+    display: flex;
+    border: 1px solid red;
+    justify-content:space-evenly;
+} */
